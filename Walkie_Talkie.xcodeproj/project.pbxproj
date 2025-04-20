@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F0F6A6BB2DB4C8C00053237F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F6A6A52DB4C8BF0053237F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0F6A6AC2DB4C8BF0053237F;
+			remoteInfo = Walkie_Talkie;
+		};
+		F0F6A6C52DB4C8C00053237F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F6A6A52DB4C8BF0053237F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0F6A6AC2DB4C8BF0053237F;
+			remoteInfo = Walkie_Talkie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0F6A6AD2DB4C8BF0053237F /* Walkie_Talkie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Walkie_Talkie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F6A6BA2DB4C8C00053237F /* Walkie_TalkieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Walkie_TalkieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F6A6C42DB4C8C00053237F /* Walkie_TalkieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Walkie_TalkieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F0F6A6AF2DB4C8BF0053237F /* Walkie_Talkie */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Walkie_Talkie;
+			sourceTree = "<group>";
+		};
+		F0F6A6BD2DB4C8C00053237F /* Walkie_TalkieTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Walkie_TalkieTests;
+			sourceTree = "<group>";
+		};
+		F0F6A6C72DB4C8C00053237F /* Walkie_TalkieUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Walkie_TalkieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0F6A6AA2DB4C8BF0053237F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F6A6B72DB4C8C00053237F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F6A6C12DB4C8C00053237F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0F6A6A42DB4C8BF0053237F = {
+			isa = PBXGroup;
+			children = (
+				F0F6A6AF2DB4C8BF0053237F /* Walkie_Talkie */,
+				F0F6A6BD2DB4C8C00053237F /* Walkie_TalkieTests */,
+				F0F6A6C72DB4C8C00053237F /* Walkie_TalkieUITests */,
+				F0F6A6AE2DB4C8BF0053237F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0F6A6AE2DB4C8BF0053237F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0F6A6AD2DB4C8BF0053237F /* Walkie_Talkie.app */,
+				F0F6A6BA2DB4C8C00053237F /* Walkie_TalkieTests.xctest */,
+				F0F6A6C42DB4C8C00053237F /* Walkie_TalkieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0F6A6AC2DB4C8BF0053237F /* Walkie_Talkie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F6A6CE2DB4C8C00053237F /* Build configuration list for PBXNativeTarget "Walkie_Talkie" */;
+			buildPhases = (
+				F0F6A6A92DB4C8BF0053237F /* Sources */,
+				F0F6A6AA2DB4C8BF0053237F /* Frameworks */,
+				F0F6A6AB2DB4C8BF0053237F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F0F6A6AF2DB4C8BF0053237F /* Walkie_Talkie */,
+			);
+			name = Walkie_Talkie;
+			packageProductDependencies = (
+			);
+			productName = Walkie_Talkie;
+			productReference = F0F6A6AD2DB4C8BF0053237F /* Walkie_Talkie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0F6A6B92DB4C8C00053237F /* Walkie_TalkieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F6A6D12DB4C8C00053237F /* Build configuration list for PBXNativeTarget "Walkie_TalkieTests" */;
+			buildPhases = (
+				F0F6A6B62DB4C8C00053237F /* Sources */,
+				F0F6A6B72DB4C8C00053237F /* Frameworks */,
+				F0F6A6B82DB4C8C00053237F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0F6A6BC2DB4C8C00053237F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F0F6A6BD2DB4C8C00053237F /* Walkie_TalkieTests */,
+			);
+			name = Walkie_TalkieTests;
+			packageProductDependencies = (
+			);
+			productName = Walkie_TalkieTests;
+			productReference = F0F6A6BA2DB4C8C00053237F /* Walkie_TalkieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0F6A6C32DB4C8C00053237F /* Walkie_TalkieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F6A6D42DB4C8C00053237F /* Build configuration list for PBXNativeTarget "Walkie_TalkieUITests" */;
+			buildPhases = (
+				F0F6A6C02DB4C8C00053237F /* Sources */,
+				F0F6A6C12DB4C8C00053237F /* Frameworks */,
+				F0F6A6C22DB4C8C00053237F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0F6A6C62DB4C8C00053237F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F0F6A6C72DB4C8C00053237F /* Walkie_TalkieUITests */,
+			);
+			name = Walkie_TalkieUITests;
+			packageProductDependencies = (
+			);
+			productName = Walkie_TalkieUITests;
+			productReference = F0F6A6C42DB4C8C00053237F /* Walkie_TalkieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0F6A6A52DB4C8BF0053237F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					F0F6A6AC2DB4C8BF0053237F = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					F0F6A6B92DB4C8C00053237F = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = F0F6A6AC2DB4C8BF0053237F;
+					};
+					F0F6A6C32DB4C8C00053237F = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = F0F6A6AC2DB4C8BF0053237F;
+					};
+				};
+			};
+			buildConfigurationList = F0F6A6A82DB4C8BF0053237F /* Build configuration list for PBXProject "Walkie_Talkie" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0F6A6A42DB4C8BF0053237F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F0F6A6AE2DB4C8BF0053237F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0F6A6AC2DB4C8BF0053237F /* Walkie_Talkie */,
+				F0F6A6B92DB4C8C00053237F /* Walkie_TalkieTests */,
+				F0F6A6C32DB4C8C00053237F /* Walkie_TalkieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0F6A6AB2DB4C8BF0053237F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F6A6B82DB4C8C00053237F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F6A6C22DB4C8C00053237F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0F6A6A92DB4C8BF0053237F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F6A6B62DB4C8C00053237F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F6A6C02DB4C8C00053237F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0F6A6BC2DB4C8C00053237F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0F6A6AC2DB4C8BF0053237F /* Walkie_Talkie */;
+			targetProxy = F0F6A6BB2DB4C8C00053237F /* PBXContainerItemProxy */;
+		};
+		F0F6A6C62DB4C8C00053237F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0F6A6AC2DB4C8BF0053237F /* Walkie_Talkie */;
+			targetProxy = F0F6A6C52DB4C8C00053237F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F0F6A6CC2DB4C8C00053237F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = U4CWN7MP9P;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0F6A6CD2DB4C8C00053237F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = U4CWN7MP9P;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0F6A6CF2DB4C8C00053237F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4CWN7MP9P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan16.Walkie-Talkie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0F6A6D02DB4C8C00053237F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4CWN7MP9P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan16.Walkie-Talkie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0F6A6D22DB4C8C00053237F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4CWN7MP9P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan16.Walkie-TalkieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Walkie_Talkie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Walkie_Talkie";
+			};
+			name = Debug;
+		};
+		F0F6A6D32DB4C8C00053237F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4CWN7MP9P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan16.Walkie-TalkieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Walkie_Talkie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Walkie_Talkie";
+			};
+			name = Release;
+		};
+		F0F6A6D52DB4C8C00053237F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4CWN7MP9P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan16.Walkie-TalkieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Walkie_Talkie;
+			};
+			name = Debug;
+		};
+		F0F6A6D62DB4C8C00053237F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4CWN7MP9P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan16.Walkie-TalkieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Walkie_Talkie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0F6A6A82DB4C8BF0053237F /* Build configuration list for PBXProject "Walkie_Talkie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F6A6CC2DB4C8C00053237F /* Debug */,
+				F0F6A6CD2DB4C8C00053237F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F6A6CE2DB4C8C00053237F /* Build configuration list for PBXNativeTarget "Walkie_Talkie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F6A6CF2DB4C8C00053237F /* Debug */,
+				F0F6A6D02DB4C8C00053237F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F6A6D12DB4C8C00053237F /* Build configuration list for PBXNativeTarget "Walkie_TalkieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F6A6D22DB4C8C00053237F /* Debug */,
+				F0F6A6D32DB4C8C00053237F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F6A6D42DB4C8C00053237F /* Build configuration list for PBXNativeTarget "Walkie_TalkieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F6A6D52DB4C8C00053237F /* Debug */,
+				F0F6A6D62DB4C8C00053237F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0F6A6A52DB4C8BF0053237F /* Project object */;
+}

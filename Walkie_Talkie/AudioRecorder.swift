@@ -18,25 +18,23 @@ class AudioRecorder {
         do {
             try audioSession.setCategory(.playAndRecord, mode: .default)
             try audioSession.setActive(true)
-
-            let documentsPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
-            let timestamp = Int(Date().timeIntervalSince1970) // Unique timestamp
-            let audioFileURL = documentsPath.appendingPathComponent("recording_\(timestamp).m4a")
-
+            
+            let audioFileURL = generateFileName() // Use the generateFileName method
+            
             let settings: [String: Any] = [
                 AVFormatIDKey: Int(kAudioFormatMPEG4AAC),
                 AVSampleRateKey: 44100,
                 AVNumberOfChannelsKey: 2,
                 AVEncoderAudioQualityKey: AVAudioQuality.high.rawValue
             ]
-
+            
             audioRecorder = try AVAudioRecorder(url: audioFileURL, settings: settings)
             audioRecorder?.record()
         } catch {
             print("Failed to start recording: \(error.localizedDescription)")
         }
     }
-
+    
 //    func startRecording() {
 //        let audioSession = AVAudioSession.sharedInstance()
 //        do {
@@ -44,7 +42,8 @@ class AudioRecorder {
 //            try audioSession.setActive(true)
 //
 //            let documentsPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
-//            let audioFileURL = documentsPath.appendingPathComponent("recording.m4a")
+//            let timestamp = Int(Date().timeIntervalSince1970) // Unique timestamp
+//            let audioFileURL = documentsPath.appendingPathComponent("recording_\(timestamp).m4a")
 //
 //            let settings: [String: Any] = [
 //                AVFormatIDKey: Int(kAudioFormatMPEG4AAC),
@@ -59,9 +58,19 @@ class AudioRecorder {
 //            print("Failed to start recording: \(error.localizedDescription)")
 //        }
 //    }
-
+    
     func stopRecording() {
         audioRecorder?.stop()
         audioRecorder = nil
     }
+    
+    private func generateFileName() -> URL {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MM-dd-HH-mm-ss"
+        let fileName = formatter.string(from: Date()) + ".m4a"
+        let documentsPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
+        return documentsPath.appendingPathComponent(fileName)
+    }
+
+
 }

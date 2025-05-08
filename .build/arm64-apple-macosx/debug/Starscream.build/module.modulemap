@@ -1,0 +1,4 @@
+module Starscream {
+    header "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Starscream.build/Starscream-Swift.h"
+    requires objc
+}

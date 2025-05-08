@@ -1,0 +1,4 @@
+module Walkie_Talkie {
+    header "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/Walkie_Talkie-Swift.h"
+    requires objc
+}

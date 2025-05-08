@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/master.swiftdeps"
+  },
+  "/Users/xiaoyuwang/Walkie_Talkie/Walkie_Talkie/Audio.swift": {
+    "dependencies": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/Audio.d",
+    "object": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/Audio.swift.o",
+    "swiftmodule": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/Audio~partial.swiftmodule",
+    "swift-dependencies": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/Audio.swiftdeps"
+  },
+  "/Users/xiaoyuwang/Walkie_Talkie/Walkie_Talkie/AudioFilesListView.swift": {
+    "dependencies": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/AudioFilesListView.d",
+    "object": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/AudioFilesListView.swift.o",
+    "swiftmodule": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/AudioFilesListView~partial.swiftmodule",
+    "swift-dependencies": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/AudioFilesListView.swiftdeps"
+  },
+  "/Users/xiaoyuwang/Walkie_Talkie/Walkie_Talkie/ContentView.swift": {
+    "dependencies": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/ContentView.d",
+    "object": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/ContentView.swift.o",
+    "swiftmodule": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/ContentView.swiftdeps"
+  },
+  "/Users/xiaoyuwang/Walkie_Talkie/Walkie_Talkie/ContentViewModel.swift": {
+    "dependencies": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/ContentViewModel.d",
+    "object": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/ContentViewModel.swift.o",
+    "swiftmodule": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/ContentViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/ContentViewModel.swiftdeps"
+  },
+  "/Users/xiaoyuwang/Walkie_Talkie/Walkie_Talkie/Socket.swift": {
+    "dependencies": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/Socket.d",
+    "object": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/Socket.swift.o",
+    "swiftmodule": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/Socket~partial.swiftmodule",
+    "swift-dependencies": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/Socket.swiftdeps"
+  },
+  "/Users/xiaoyuwang/Walkie_Talkie/Walkie_Talkie/Walkie_TalkieApp.swift": {
+    "dependencies": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/Walkie_TalkieApp.d",
+    "object": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/Walkie_TalkieApp.swift.o",
+    "swiftmodule": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/Walkie_TalkieApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/xiaoyuwang/Walkie_Talkie/.build/arm64-apple-macosx/debug/Walkie_Talkie.build/Walkie_TalkieApp.swiftdeps"
+  }
+}
